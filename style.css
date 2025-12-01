@@ -1,0 +1,133 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 40px;
+  color: #222;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+
+#search-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-bottom: 25px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+#search-input:focus {
+  border-color: #4a90e2;
+  background: #fff;
+  outline: none;
+}
+
+
+#movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+
+.movie-item {
+  background: white;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.movie-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+
+.movie-item p {
+  font-size: 17px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+
+button:nth-child(1) {
+  background: black;
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background: black;
+}
+
+
+button:nth-child(2) {
+  background: black;
+  color: white;
+}
+
+button:nth-child(2):hover {
+  background: skyblue;
+}
+
+
+#add-movie-form {
+  background: white;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  margin-top: 40px;
+}
+
+#add-movie-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: 0.2s;
+}
+
+#add-movie-form input:focus {
+  border-color: black;
+  background: white;
+}
+
+#add-movie-form button {
+  background: black;
+  color: white;
+}
+
+#add-movie-form button:hover {
+  background: skyblue;
+}

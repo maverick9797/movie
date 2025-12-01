@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "id": "f7a1",
+      "title": "onward",
+      "genre": "family",
+      "year": 2020
+    },
+    {
+      "id": "e29c",
+      "title": " Our Fault",
+      "year": 2025,
+      "genre": "drama"
+    }
+  ]
+}
